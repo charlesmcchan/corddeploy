@@ -13,7 +13,7 @@ A network-cfg.json example includes the following features
     - of:1/5, of:1/7
         subnet = 10.0.1.0/24
         gateway = 10.0.1.254
-    - of:2/5, of:2/7
+    - of:2/5
         subnet = 10.0.2.0/24
         gateway = 10.0.2.254
 
