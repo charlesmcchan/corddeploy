@@ -4,10 +4,11 @@ This repository hosts the configuration files used in CORD deployment.
 This does not work in any environment other than mine.
 However, this is still a very good example to take a look.
 
+ONOS version must not prior to commit 852dabf100262d07475b82b8ddc3cc42afe370a9
+
 ## network-cfg-ext-vr.json
 
-A network-cfg.json example includes the following features
-(works with ONOS after commit 852dabf100262d07475b82b8ddc3cc42afe370a9)
+The network-cfg.json includes the following features
 
 * 2x2 leaf-spine fabric
     - of:1/5, of:1/7
@@ -36,6 +37,14 @@ A network-cfg.json example includes the following features
 
 * Interface exclusion
     - exclude vrouterpeer1
+
+## network-cfg-int-vr.json
+
+The network-cfg.json with all the features mentioned above plus SegmentRouting/vRouter integration
+
+* vRouter
+    - of:2/9 connects to Internet router
+    - of:2/11 connects to local Quagga
 
 ## cord.cell
 
