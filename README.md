@@ -43,9 +43,13 @@ The network-cfg.json includes the following features
 The network-cfg.json with all the features mentioned above plus SegmentRouting/vRouter integration
 
 * vRouter
-    - of:2/9 connects to Internet router
-    - of:2/11 connects to local Quagga
+    - of:2/9 connects to local Quagga
+    - of:2/11 connects to Internet router
 
 ## cord.cell
 
 The cell configuration used for CORD deployment
+
+## topology.svg
+
+Network topology
